@@ -15,11 +15,9 @@ func readInt() int {
 	return i
 }
 
-func readString() string {
-	sc.Scan()
-	return sc.Text()
-}
-
 func main() {
-	// splitSc.Split(bufio.ScanWords)
+	sc.Split(bufio.ScanWords)
+	a, b := readInt(), readInt()
+
+	fmt.Println((1 - float64(b) / float64(a)) * 100)
 }
