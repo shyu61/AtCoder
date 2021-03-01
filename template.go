@@ -21,5 +21,5 @@ func readString() string {
 }
 
 func main() {
-	// splitSc.Split(bufio.ScanWords)
+	// sc.Split(bufio.ScanWords)
 }
